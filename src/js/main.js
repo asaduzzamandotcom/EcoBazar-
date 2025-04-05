@@ -37,6 +37,7 @@ Table Contents
  */
 
 /* 
+ 
     1. Countdown timer
 ======================== */
 if (document.getElementById('countdownTwo')) {
@@ -74,17 +75,7 @@ if (document.getElementById('selectbox1')) {
     offset: false,
     placeholder: 'Eng',
   });
-}
-
-if (document.getElementById('selectbox2')) {
-  var demo2 = new BVSelect({
-    selector: '#selectbox2',
-    searchbox: false,
-    offset: false,
-    placeholder: 'USD',
-  });
-}
-
+} 
 if (document.getElementById('sort')) {
   var demo3 = new BVSelect({
     selector: '#sort',

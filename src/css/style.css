@@ -1329,26 +1329,70 @@ a {
     height: 22px;
   }
 }
-.header--four .header__top {
+
+/* Custom CSS from Asaduzzaman */
+:root {
+	--gren-gray-scale-900: #002603;
+	--gren-gray-scale-800: #173b1a;
+	--gren-gray-scale-700: #2b572e;
+	--gren-gray-scale-600: #406b42;
+	--gren-gray-scale-500: #618062;
+	--gren-gray-scale-400: #7a997c;
+	--gren-gray-scale-300: #96b297;
+	--gren-gray-scale-200: #b4ccb4;
+	--gren-gray-scale-100: #dae5da;
+	--gren-gray-scale-50: #edf2ee;
+	--gray-scale-gray-–-900: #1a1a1a;
+	--gray-scale-gray-–-800: #333;
+	--gray-scale-gray-–-700: #4d4d4d;
+	--gray-scale-gray-–-600: #666;
+	--gray-scale-gray-–-500: #808080;
+	--gray-scale-gray-–-400: #999;
+	--gray-scale-gray-–-300: #b3b3b3;
+	--gray-scale-gray-–-200: #ccc;
+	--gray-scale-gray-–-100: #e5e5e5;
+	--gray-scale-gray-–-50: #f2f2f2;
+	--gray-scale-white: #fff;
+	--branding-success-bright: #84d187;
+	--branding-success: #00b207;
+	--branding-success-dark: #2c742f;
+	--branding-warning: #ff8a00;
+	--branding-error: #ea4b48;
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Segoe Script", sans-serif;
+  --third-family: "Dancing Script", sans-serif;
+}
+
+.header-top{
+  background: var(--gray-scale-gray-–-800);
+}
+.header-top .header-top-left i{
+  line-height: 0 !important;
+  font-size: 16px;
+  color: var(--gray-scale-gray-–-100);
+
+}
+
+/* .header .header__top {
   padding: 13px 0px;
   background-color: #333333;
-}
-.header--four .header__top-content {
+} 
+.header .header__top-content {
   padding: 0px;
   box-shadow: none;
 }
-.header--four .header__top-left p,
-.header--four .header__top-left a, .header--four .header__top-right .header__in p,
-.header--four .header__top-right .header__in a {
+.header .header__top-left p,
+.header .header__top-left a, .header .header__top-right .header__in p,
+.header .header__top-right .header__in a {
   color: #b2b2b2;
 }
-.header--four .header__top-right .header__dropdown {
+.header .header__top-right .header__dropdown {
   border-right: 1px solid rgba(255, 255, 255, 0.1019607843);
 }
-.header--four .header__top-right .bv_mainselect .bv_atual.bv_background {
+.header .header__top-right .bv_mainselect .bv_atual.bv_background {
   color: #b2b2b2;
 }
-.header--four .header__top-right .bv_mainselect .bv_atual.bv_background .arrow {
+.header .header__top-right .bv_mainselect .bv_atual.bv_background .arrow {
   border: solid #b2b2b2;
   border-width: 0 1px 1px 0;
   display: inline-block;
@@ -1356,72 +1400,72 @@ a {
   pointer-events: none;
   margin-left: 8px;
 }
-.header--four .header__top-right .bv_mainselect .bv_ul_inner {
+.header .header__top-right .bv_mainselect .bv_ul_inner {
   width: 150px !important;
   text-transform: capitalize;
   z-index: 999;
 }
-.header--four .header__top-right .bv_mainselect .bv_ul_inner li:hover {
+.header .header__top-right .bv_mainselect .bv_ul_inner li:hover {
   background-color: #00b207;
   color: #fff;
 }
-.header--four .header__top-right .bv_mainselect .bv_ul_inner li.bv_disabled {
+.header .header__top-right .bv_mainselect .bv_ul_inner li.bv_disabled {
   background-color: #84d187 !important;
   color: #fff;
-}
-.header--four .header__navigation-menu-link.active a {
+} */
+.header .header__navigation-menu-link.active a {
   color: #00b207;
 }
-.header--four .header__navigation-menu-link a {
+.header .header__navigation-menu-link a {
   color: #808080;
 }
 @media (max-width: 767px) {
-  .header--four .header__telephone-number {
+  .header .header__telephone-number {
     display: none;
   }
 }
-.header--four .header__telephone-number span {
+.header .header__telephone-number span {
   color: #1a1a1a;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
 }
-.header--four .header__telephone-number span svg {
+.header .header__telephone-number span svg {
   color: #1a1a1a;
 }
-.header--four .header__bottom {
+.header .header__bottom {
   background-color: #f2f2f2;
 }
-.header--four .header__bottom-content {
+.header .header__bottom-content {
   background-color: #f2f2f2;
 }
 @media (max-width: 575px) {
-  .header--four .header__bottom-content {
+  .header .header__bottom-content {
     justify-content: center;
   }
 }
-.header--four .header__category-content .bv_atual.bv_background {
+.header .header__category-content .bv_atual.bv_background {
   background-color: #00b207;
   width: 150px !important;
   padding-left: 0px;
 }
-.header--four .header__cart-item-content {
+.header .header__cart-item-content {
   padding-left: 5px;
 }
 @media (max-width: 575px) {
-  .header--four .header__cart-item-content-info {
+  .header .header__cart-item-content-info {
     display: none;
   }
 }
-.header--four .header__cart-item button {
+.header .header__cart-item button {
   padding-right: 5px;
 }
 .header__top {
   background-color: #edf2ee;
 }
-.header__top-left p {
+/* .header__top-left p {
   color: #2b572e;
-}
+} */
 .header__top-right .header__dropdown .bv_mainselect .bv_atual.bv_background {
   color: #2b572e;
 }
